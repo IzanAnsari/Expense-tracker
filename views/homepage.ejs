@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expense Tracker</title>
+<link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+  <header>
+    <h1>Expense Tracker</h1>
+  </header>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <nav>
+    <a href="/about">about</a>   
+    <a href="/contact">Contact</a>
+    <a href="#" onclick="openRazorpayPayment(event)">Buy Pro</a>
+    <a href="/logout">Logout</a>
+  </nav>
+  <div class="container">
+    <h2>Add Expense</h2>
+    <form id="expense-form" action="/addexpence" method="post">
+      <label for="expense">Expense:</label>
+      <input type="text"  name="amount" placeholder="Enter Your expence"required>
+      <label for="description">Description:</label>
+      <input type="text"  name="description" placeholder="Enter The description"required>
+      <button type="submit">Add Expense</button></br></br>
+    </form>
+    
+    <div class="expense-list">
+      <h3>Expense List :</h3>
+      <div class="total-expense">
+        <ul id="expenceList"></ul>
+      <div id="expencePagination">
+      </div>
+      <div class="total-expense">
+        <h3>Total :</h3>
+        <h2 id="totalexpence" name="totalexpence"><span id="totalexpenceamount"></span></h2>
+      </div>
+      
+      <script src="homepage.js"></script>
+      <!-- Repeat expense-item for each expense -->
+    </div>
+  </div>
+  <footer class="footer">
+     All rights reserved &copy; 2023 Expense Tracker. Developed by Mohammad Izaan.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('izan 0.7.jpg'); /* Add your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* Rest of the CSS code remains unchanged */
+  
+  
+  /* Basic button styles */
+  nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: -2.5px;
+    text-transform: uppercase;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    box-shadow: 0 4px 16px rgba(253, 252, 255, 0.1);
+    overflow: hidden;
+  }
+    
+  /* Primary button style */
+  nav .primary-button {
+    background-color: #FF6B6B;
+    background-image: linear-gradient(45deg, #FF6B6B, #FFC3A0);
+  }
+  
+  nav .primary-button:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+  }
+  
+  /* Secondary button style */
+  nav .secondary-button {
+    background-color: #58B19F;
+    background-image: linear-gradient(45deg, #58B19F, #A3D9B1);
+  }
+  
+  nav .secondary-button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+  
+  /* Rounded button style */
+  nav .rounded-button {
+    border-radius: 60px;
+  }
+  
+  /* 3D button style */
+  nav .three-d-button {
+    background-color: #56544a;
+    background-image: linear-gradient(45deg, #FFD700, #FFEF9F);
+    transform: translateY(0);
+    transition: transform 0.2s ease;
+  }
+  
+  nav .three-d-button:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    nav a {
+      margin: 10px;
+      padding: 10px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  header {
+    background-color: #262525;
+    color: rgb(240, 170, 7);
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav {
+    background-color: #ece9e9;
+    padding: -2px 0;
+    text-align: right;
+  }
+  
+  nav a {
+    color: rgb(142, 116, 49);
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #D2691E;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header {
+    background-color: #262525;
+    color: rgb(156, 154, 144);
+    text-align: center;
+    padding: 10px 0;
+   
+  }
+  
+  nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: rgb(244, 158, 9);
+    text-decoration: none;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  
+  .expense-list {
+    border: 1px solid #D2691E;
+    padding: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .total-expense {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .expense-item span {
+    flex-basis: 20%;
+  }
+  
+  /* Rest of your existing CSS styles */
+
+/* Styles for the leaderboard container */
+.leaderboard {
+  border: 1px solid #D2691E;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.leaderboard h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  nav a {
+    margin: 10px;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+  

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expense Tracker</title>
+<link rel="stylesheet" href="leader.css">
+</head>
+<body>
+  <header>
+    <h1>Expense Tracker</h1>
+  </header>
+  <nav>
+    <a href="/about">about</a>   
+    <a href="/contact">Contact</a>
+    <a href="#">Download</a>
+    <a href="/logout">Logout</a>
+  </nav>
+  <div class="container">
+    <h2>Add Expense</h2>
+    <form id="expense-form" action="/addexpence1" method="post">
+      <label for="expense">Expense:</label>
+      <input type="text"  name="amount" placeholder="Enter Your expence"required>
+      <label for="description">Description:</label>
+      <input type="text"  name="description" placeholder="Enter The description"required>
+      <button type="submit">Add Expense</button></br></br>
+    </form>
+    
+      
+    
+    <div class="expense-list">
+      <h2>Expense List..</h2>
+      <div class="total-expense">
+      <ul id="expenceList"></ul>
+
+      <div id="expencePagination">
+      </div>
+
+
+      <div class="total-expense">
+        <h2 id="totalexpence" name="totalexpence"><span id="totalexpenceamount"></span></h2>
+      
+    </div>  
+
+      <div class="leaderboard">
+        <h2>Leaderboard</h2>
+        <ol id="leaderboardList"></ol>
+        <div id="leaderboardPagination">
+      </div>
+    </div></br></br></br>
+  <script src="leader.js"></script>
+</body>
+<footer class="footer">
+   All rights reserved &copy; 2023 Expense Tracker. Developed by Mohammad Izaan.
+</footer>
+</html>

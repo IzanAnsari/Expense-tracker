@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: url('izan 10.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #444a44;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #000000; /* Match the background color on hover */
+}
+
+.footer {
+  margin-top: 290px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.link {
+  margin-top: 25px;
+  color: #868686;
+}
+
+.link a {
+  color: #339933;
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}

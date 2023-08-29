@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="login-form">
+        <div class="text">
+            LOGIN
+        </div>
+        <form action="/login" method="post">
+            <div class="field">
+                <div class="fas fa-envelope"></div>
+                <input type="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="field">
+                <div class="fas fa-lock"></div>
+                <input type="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit">LOGIN</button>
+        </form>
+        <div class="link">
+            Not a member? <a href="/signup">Signup now</a>
+        </div>
+        <div class="link">
+            <a href="/forgot">Forgot Password?</a>
+        </div>
+    </div>
+</body>
+</html>

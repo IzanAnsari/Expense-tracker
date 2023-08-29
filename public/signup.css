@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #797979;
+}
+
+.container {
+  position: relative;
+  width: 370px;
+  height: auto;
+  background: #262525;
+  padding: 40px 35px 60px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: inset 0 0 1px #797979;
+}
+
+h2 {
+  font-size: 30px;
+  color: #339933;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+form .input-group {
+  margin-top: 20px;
+}
+
+.input-group label {
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  height: 40px;
+  width: 90%;
+  outline: none;
+  font-size: 16px;
+  color: #868686;
+  padding: 0 15px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  caret-color: #339933;
+  background: linear-gradient(#333, #222);
+}
+
+.input-group input:focus {
+  color: #339933;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.2), inset 0 0 5px rgba(0, 255, 0, 0.1);
+  background: linear-gradient(#333933, #222922);
+  animation: glow 0.8s ease-out infinite alternate;
+}
+
+/* ... Your existing CSS code ... */
+
+button {
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 9px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #868686; /* Set the text color to gray */
+  background: #323131; /* Set the background color to gray */
+  border: 1px solid #444;
+}
+
+button:hover {
+  color: #339933;
+  border: 1px solid #339933;
+  box-shadow: 0 0 5px rgba(0,255,0,.3),
+              0 0 10px rgba(0,255,0,.2),
+              0 0 15px rgba(0,255,0,.1),
+              0 2px 0 black;
+}
+
+  /* ... The rest of your CSS code ... */
+  
+  
+  
+
+@keyframes glow {
+  0% {
+    border-color: #339933;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.2), inset 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    border-color: #6f6;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.6), inset 0 0 10px rgba(0, 255, 0, 0.4);
+  }
+}
+
+
+
+.link{
+    margin-top: 25px;
+    color: #868686;
+  }
+  .link a{
+    color: #339933;
+    text-decoration: none;
+  }
+  .link a:hover{
+    text-decoration: underline;
+  }

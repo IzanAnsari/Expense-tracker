@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>Feel free to reach out to us.</p>
+    <form action="/contact" method="POST">
+      <div class="input-group">
+        <input type="email" name="email" placeholder="Enter Your Email" required>
+      </div>
+      <div class="input-group">
+        <input type="number" name="phnumber" placeholder="Enter Your Phone no." required>
+      </div>
+      <div class="input-group">
+        <textarea id="description" name="description" placeholder="Feel Free to Write your Issue" required></textarea>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+ 
